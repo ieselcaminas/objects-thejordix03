@@ -1,4 +1,4 @@
-package herencia;
+package trabajadores;
 
 public class trabajadores {
 
