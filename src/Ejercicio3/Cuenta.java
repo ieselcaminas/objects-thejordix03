@@ -37,14 +37,14 @@ public class Cuenta {
         this.cantidad = cantidad;
     }
 
-    // Método ingresar
+    // Metodo
     public void ingresar(double cantidad) {
         if (cantidad > 0) {
             this.cantidad += cantidad;
         }
     }
 
-    // Método retirar
+    // Metodo retirar
     public void retirar(double cantidad) {
         if (this.cantidad - cantidad < 0) {
             this.cantidad = 0;
