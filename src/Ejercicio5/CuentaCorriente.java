@@ -26,15 +26,15 @@ class CuentaCorriente {
         return saldo;
     }
 
-    public void depositar(double monto) {
-        if (monto > 0) {
-            saldo += monto;
+    public void depositar(double monton) {
+        if (monton > 0) {
+            saldo += monton;
         }
     }
 
-    public boolean retirar(double monto) {
-        if (saldo >= monto && monto > 0) {
-            saldo -= monto;
+    public boolean retirar(double monton) {
+        if (saldo >= monton && monton > 0) {
+            saldo -= monton;
             return true;
         }
         return false;
