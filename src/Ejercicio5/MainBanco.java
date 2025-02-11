@@ -34,12 +34,12 @@ public class MainBanco {
 
         // Realizar una operación de depósito
         cuentaJordi.depositar(500);
-        System.out.println("Depósito realizado. Saldo actual: " + cuentaJordi.getSaldo() + "€");
+        System.out.println("Depósito realizado +500€. Saldo actual: " + cuentaJordi.getSaldo() + "€");
 
         // Realizar una operación de retiro
         boolean retiroExitoso = cuentaJordi.retirar(200);
         if (retiroExitoso) {
-            System.out.println("Retiro realizado. Saldo actual: " + cuentaJordi.getSaldo() + "€");
+            System.out.println("Retiro realizado -200€. Saldo actual: " + cuentaJordi.getSaldo() + "€");
         } else {
             System.out.println("No hay suficiente saldo para retirar.");
         }
